@@ -27,7 +27,7 @@ res = []
 
 start = time.time()
 
-for idx, row in df.head(50).iterrows():
+for idx, row in df.head(1).iterrows():
     print(row['path'])
     meta = utils.generate_meta(spark, row['path'])
     res.append(meta)
@@ -36,7 +36,7 @@ with open(OUTPUT, 'w') as outfile:
     json.dump(res, outfile, indent=2)
 
 end = time.time()
-with open(LOG, 'w') as log:
+with open(LOG, 'a+') as log:
     s1 = "Time elapsed: " + str(end - start) + " seconds"
     print(s1)
     log.write(
