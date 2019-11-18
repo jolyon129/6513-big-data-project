@@ -29,7 +29,9 @@ start = time.time()
 
 for idx, row in df.head(1).iterrows():
     print(row['path'])
-    meta = utils.generate_meta(spark, row['path'])
+
+    meta = utils.generate_meta1(spark, row['path'])
+
     res.append(meta)
 
 with open(OUTPUT, 'w') as outfile:
@@ -39,5 +41,7 @@ end = time.time()
 with open(LOG, 'a+') as log:
     s1 = "Time elapsed: " + str(end - start) + " seconds"
     print(s1)
-    log.write(
+    log.writelines(
         datetime.now().strftime('%m-%d %H:%M:%S') + '\t' + s1)
+
+
