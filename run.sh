@@ -1,7 +1,7 @@
 #!/bin/sh
 
 FILE=main.py
-FILE1=utils.py
+FILE1=rdd_util.py
 OUTPUT=project_output
 
 export PYSPARK_PYTHON='/share/apps/python/3.6.5/bin/python'
