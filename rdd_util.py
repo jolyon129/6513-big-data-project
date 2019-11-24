@@ -6,6 +6,17 @@ from collections import Counter
 from pyspark import SparkContext, RDD
 from csv import reader
 import itertools
+import math
+
+
+def is_date(s: str, col: str):
+    col_name = col.lower()
+    if 'date' in col_name or 'year' in col_name \
+            or 'time' in col_name or 'month' in col_name \
+            or 'day' in col_name:
+        return True
+    else:
+        return False
 
 
 def mapd(x: List):
@@ -63,7 +74,7 @@ def generate_meta(sc: SparkContext, path: str):
         lambda x, h=header: [(h[i], x[i]) for i in range(N)]).cache()
 
     # Transform to [(col_idx, (value, type)),(col_idx, (value, type))...]
-    mapped_items = items.map(mapd)
+    mapped_items = items.map(mapd).cache()
     col_map = {}
     for col in header:
         col_map[col] = {}
@@ -119,3 +130,24 @@ def generate_distinct_top5(items: RDD) -> RDD:
     sorted_grouped_freq_items = freq_items.sortBy(lambda x: x[1][1], ascending=False).groupByKey()
     res = sorted_grouped_freq_items.mapValues(lambda x: (len(x), list(itertools.islice(x, 5))))
     return res
+
+
+def generate_num_statistic(col_num_type_items: RDD) -> RDD:
+    """
+    :param col_num_type_items: [(('Wave_Number', 'int'), 3),(('Week_Number', 'int'), 40)...]
+    :return: ['Wave_Number', 'int'], [max_value, min_value, sum, count, mean, std])
+    """
+
+    def seqFunc(local, x):
+        max_value = x if x > local[0] else local[0]
+        min_value = x if x < local[1] else local[1]
+        return (max_value, min_value, local[2] + x, local[3] + 1)
+
+    combFunc = (lambda x, y: (max(x[0], y[0]), min(x[1], y[1]), x[2] + y[2], x[3] + y[3]))
+    num_statistic = col_num_type_items.aggregateByKey((0, 0, 0, 0), seqFunc, combFunc)
+    num_statistic = num_statistic.map(lambda x: (x[0], [*x[1], x[1][2] / x[1][3]]))
+    # [(('col_name', 'num_type'),(value, mean))...]
+    col_num_mean_items = col_num_type_items.join(num_statistic.map(lambda x: (x[0], x[1][4])))
+    result_dev = col_num_mean_items.aggregateByKey((0,), lambda local, x: (local[0] + (x[0] - x[1]) ** 2,), (lambda x, y: (x[0] + y[0])))
+    result_std = result_dev.map(lambda x: (x[0], math.sqrt(x[1][0])))
+    return num_statistic.join(result_std).map(lambda x: [x[0],[*x[1][0],x[1][1]]])
