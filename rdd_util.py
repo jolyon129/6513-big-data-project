@@ -134,6 +134,7 @@ def generate_distinct_top5(items: RDD) -> RDD:
 
 def generate_num_statistic(col_num_type_items: RDD) -> RDD:
     """
+    Generate statistic for num of type columns and real of type columns.
     :param col_num_type_items: [(('Wave_Number', 'int'), 3),(('Week_Number', 'int'), 40)...]
     :return: ['Wave_Number', 'int'], [max_value, min_value, sum, count, mean, std])
     """
@@ -148,6 +149,34 @@ def generate_num_statistic(col_num_type_items: RDD) -> RDD:
     num_statistic = num_statistic.map(lambda x: (x[0], [*x[1], x[1][2] / x[1][3]]))
     # [(('col_name', 'num_type'),(value, mean))...]
     col_num_mean_items = col_num_type_items.join(num_statistic.map(lambda x: (x[0], x[1][4])))
-    result_dev = col_num_mean_items.aggregateByKey((0,), lambda local, x: (local[0] + (x[0] - x[1]) ** 2,), (lambda x, y: (x[0] + y[0])))
+    result_dev = col_num_mean_items.aggregateByKey((0,), lambda local, x: (
+        local[0] + (x[0] - x[1]) ** 2,), (lambda x, y: (x[0] + y[0])))
     result_std = result_dev.map(lambda x: (x[0], math.sqrt(x[1][0])))
-    return num_statistic.join(result_std).map(lambda x: [x[0],[*x[1][0],x[1][1]]])
+    return num_statistic.join(result_std).map(lambda x: [x[0], [*x[1][0], x[1][1]]])
+
+
+def generate_text_statistic(col_text_type_items: RDD) -> RDD:
+    """
+    :param col_text_type_items: columns of text type
+        (('Wave_Number', 'text'),'ACTIVE EXPRESS CAR & LIMO 2')...)
+
+    :return: ((col_name,'text'),(shortest,longest,avg_len))
+    """
+    def seqFunc(local, x):
+        #     Not includes empty text
+        if local[0] == '#':
+            shortest = x
+        else:
+            shortest = x if len(x) < len(local[0]) else local[0]
+        longest = x if len(x) > len(local[1]) else local[1]
+        total_len = local[2] + len(x)
+        count = local[3] + 1
+        return (shortest, longest, total_len, count)
+
+    combFunc = (
+        lambda x, y: (
+        x[0] if len(x[0]) < len(y[0]) else y[0], x[1] if len(x[1]) > len(y[1]) else y[1],
+        x[2] + y[2], x[3] + y[3]))
+    shortest_and_longest = col_text_type_items.aggregateByKey(('#', '', 0, 0), seqFunc, combFunc)
+    statistic = shortest_and_longest.map(lambda x: (x[0], (x[1][0], x[1][1], x[1][2] / x[1][3])))
+    return statistic
