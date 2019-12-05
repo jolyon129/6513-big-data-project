@@ -11,7 +11,9 @@ export PYSPARK_DRIVER_PYTHON='/share/apps/python/3.6.5/bin/python'
 #hadoop fs -rm -r ${OUTPUT}.out
 
 
-spark-submit --conf spark.pyspark.python=$PYSPARK_PYTHON --py-files ${FILE1} ${FILE}
+spark-submit --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./env/my-environment/bin/python \
+--archives my-environment.zip#env \
+--py-files ${FILE1} ${FILE}
 
 #hfs -get ${OUTPUT}.out
 #
