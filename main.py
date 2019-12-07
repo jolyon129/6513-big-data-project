@@ -16,6 +16,7 @@ import logging
 OUTPUT = './output/meta.json'
 OUTPUT_DIR = './result/'
 LOG = './log/process.log'
+ERROR_FILE_LIST = './log/error_file_list'
 logging.basicConfig(filename='./log/spark_log.log', level=logging.ERROR,
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
 logger = logging.getLogger(__name__)
@@ -28,13 +29,14 @@ def main():
         .config("spark.some.config.option", "some-value") \
         .getOrCreate()
 
-    file_list = "files_1.csv"
+    file_list = "files_5.csv"
     df = pd.read_csv(file_list, sep=' ', names=['path', 'size'])
     res = []
-    log_file = open(LOG, 'a+')
     sc = SparkContext.getOrCreate()
-    for idx, row in df.head(3).iterrows():
+    for idx, row in df.iterrows():
         try:
+            log_file = open(LOG, 'a+')
+            err_file_list = open(ERROR_FILE_LIST, 'a+')
             print(row['path'])
             start = time.time()
             file_name = row['path'].split('/')[-1]
@@ -47,7 +49,12 @@ def main():
                 datetime.now().strftime('%m-%d,%H:%M:%S') + ' ' + s1 + '\n')
         # Catch all exceptions
         except:
-            logging.error("Exception occurred on " + file_name)
+            logging.error("Exception occurred on " + file_name, exc_info=True)
+            err_file_list.writelines(file_name + '\n')
             continue
+        finally:
+            log_file.close()
+            err_file_list.close()
+
 
 main()
