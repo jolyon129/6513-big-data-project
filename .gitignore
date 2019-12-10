@@ -2,7 +2,7 @@
 .gitignore
 .idea/
 NYCOpenData/
-tmp_result
-result
-project_results/*
-profile.json
+task1/tmp_result
+task1/result
+task1/project_results/*
+task1/profile.json
