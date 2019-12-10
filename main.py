@@ -14,7 +14,7 @@ from pyspark.sql import SparkSession
 import logging
 
 OUTPUT = './output/meta.json'
-OUTPUT_DIR = './result/'
+OUTPUT_DIR = './tmp_result/'
 LOG = './log/process.log'
 ERROR_FILE_LIST = './log/error_file_list'
 logging.basicConfig(filename='./log/spark_log.log', level=logging.ERROR,
@@ -29,7 +29,7 @@ def main():
         .config("spark.some.config.option", "some-value") \
         .getOrCreate()
 
-    file_list = "files_5.csv"
+    file_list = "file_list/file_list_sorted.csv"
     df = pd.read_csv(file_list, sep=' ', names=['path', 'size'])
     res = []
     sc = SparkContext.getOrCreate()

@@ -119,12 +119,12 @@ def profile_column_1(df: DataFrame, col: str, spark: SparkSession):
     grouped_df.agg(F.sum('freq'))
     grouped_df.select()
 
-    # result = spark.sql(query).collect()[0]
+    # tmp_result = spark.sql(query).collect()[0]
     #
-    # empty_num = result.total - result.non_empty
-    # total_num = result.total
-    # non_empty_num = result.non_empty
-    # distinct_num = result.num
+    # empty_num = tmp_result.total - tmp_result.non_empty
+    # total_num = tmp_result.total
+    # non_empty_num = tmp_result.non_empty
+    # distinct_num = tmp_result.num
     # freq = [row[col] for row in grouped_df.limit(5).collect()]
     # column_data = {
     #     'column_name': col,

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FILES=./result/*
+FILES=./tmp_result/*
 
 for f in $FILES
 do

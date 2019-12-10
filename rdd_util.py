@@ -77,7 +77,7 @@ def generate_meta(spark: SparkSession, path: str):
     # read dataframe
     sc = SparkContext.getOrCreate()
     # Add index to each row, [([...], 0),([...], 1)...]
-    rdd = sc.textFile(path, 1).mapPartitions(lambda x: reader(x, delimiter='\t')).zipWithIndex()
+    rdd = sc.textFile(path).mapPartitions(lambda x: reader(x, delimiter='\t')).zipWithIndex()
     header = rdd.filter(lambda x: x[1] == 0) \
         .map(lambda x: (x[0])).collect()[0]  # extract the first part, ignore idx
     rows = rdd.filter(lambda x: x[1] != 0).map(lambda x: x[0])
