@@ -3,7 +3,8 @@
 .idea/
 NYCOpenData/
 task1/tmp_result
-task1/result
+task1/result.json
+task1/task1_result.json
 task1/project_results/*
 task1/profile.json
 task2/__pycache__
@@ -11,3 +12,4 @@ task2/results/
 task2/results_all_columns/
 task2/sftp-config.json
 task2/*.pdf
+.pdf
