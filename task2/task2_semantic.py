@@ -19,18 +19,17 @@ class files():
 
 	def getAll(self):
 		return self.files
-
+# according to column name, select appropriate checking function
 def type_selector(colname):
 	s = colname.lower()
-	if 'name' in s:
-		if 'first' in s or 'last' in s or 'family' in s or 'middle' in s:
-			return is_person_name
-		elif 'street' in s:
-			return is_street_name
-		elif 'business' in s:
-			return is_business_name
-		elif 'school' in s:
-			return is_school_name
+	if 'name' in s and ('first' in s or 'last' in s or 'family' in s or 'middle' in s):
+		return is_person_name
+	elif 'name' in s and 'business' in s:
+		return is_business_name
+	elif 'name' in s and 'street' in s:
+		return is_street_name
+	elif 'name' in s and 'school' in s:
+		return is_school_name
 	elif 'park' in s:
 		return is_park_playground
 	elif 'school' in s and ('level' in s or 'type' in s):
@@ -69,13 +68,13 @@ def type_selector(colname):
 		return is_building_classification
 	elif 'color' in s:
 		return is_color
-	elif 'vehicle' in s:
-		if 'make' in s:
-			return is_car_make
-		if 'type' in s:
-			return is_vehicle_type
+	elif 'vehicle' in s and 'make' in s:
+		return is_car_make
+	elif 'vehicle' in s and 'type' in s:
+		return is_vehicle_type
 
 
+# data validators below
 def is_person_name(s):
 	if re.match('^[a-zA-Z]+,?\s*?[a-zA-Z]*$', s):	# match: alphabet words, then ' ' or ',', alphabet words
 		return True
@@ -274,7 +273,8 @@ def is_vehicle_type(s):
 	else:
 		return False
 
-
+############################################################################################
+# Spark part
 #compute LCSlongestCommonSubsequence for two texts
 def LCS(text1, text2):
 	dp = [0] * (len(text2) + 1)
@@ -307,9 +307,6 @@ def semantic_decision(data):
 		F = type_selector(colname)
 		# if we could find a type function to check with, return default labeling: use colname as semantic type
 		if not F:
-			#hardcode for colname == 'school' in dataset xne4-4v8f
-			if colname.lower() == 'school' and is_school_name(data[1]):
-				return (colname, 'school_name')
 			return (colname, colname)
 		else:
 			if F(data[1]):				# if type checking function F return True, meaning it matches labeling condition.
@@ -344,17 +341,6 @@ if __name__ == '__main__':
 	F = files('cluster3.txt')
 	files = F.getAll()
 	spark = SparkSession.builder.appName("task2_semantic").config("spark.some.config.option", "some-value").getOrCreate()
-
-	# print('generating semantic for uwyv-629c.tsv.gz')
-	# columns = []
-	# start = time.time()
-	# metadata = semantic_generator(spark, '/user/hm74/NYCOpenData/{}.tsv.gz'.format(files[0][0]), files[0][1])
-	# columns.append(metadata)
-	# print(columns)
-	# with open('{}_{}.json'.format(files[0][0],files[0][1]), 'w') as f:
-	# 	json.dump(metadata, f, indent=2)
-	# end = time.time()
-	# print("Time elapsed: " + str(end - start) + " seconds")
 	
 	count,total = 0, len(files)
 	files_existed = os.listdir('results')
