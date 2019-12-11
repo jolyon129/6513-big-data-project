@@ -10,11 +10,11 @@ def type_selector(colname):
 		return is_us_phone_number
 	elif 'website' in s or 'web' in s or 'url' in s:	# apply is_website method
 		return is_website
-	elif 'latitude' in s or 'lat' in s:					# apply is_lat_coordinates method
+	elif 'latitude' in s:								# apply is_lat_coordinates method
 		return is_lat_coordinates
-	elif 'longitude' in s or 'lon' in s:				# apply is_lon_coordinates method
+	elif 'longitude' in s:								# apply is_lon_coordinates method
 		return is_lon_coordinates
-	elif 'zip' in s or 'zipcode' in s or 'zip code' in s:
+	elif 'zip' in s or 'zipcode' in s or 'zip code' in s or 'zip_code' in s and 'city' not in s:
 		return is_ny_zipcode
 	elif 'borough' in s:
 		return is_borough
@@ -68,6 +68,7 @@ def is_ny_zipcode(s):
 		return True
 	else:
 		return False
+		
 def is_borough(s):
 	if not s: return False
 	borough = ['bronx','brooklyn','manhattan','queens', 'staten island', '1', '2','3','4','5', 'mn','bx','bk','qn','si']
@@ -75,6 +76,8 @@ def is_borough(s):
 		return True
 	else:
 		return False
+
+
 
 # types that are hard to use abstract method to identify, potentially contain different data format,or need lots of data sources to verify are follows. 
 # and will apply default method for labeling: label colname as semantic type, and check if contains none type data.
