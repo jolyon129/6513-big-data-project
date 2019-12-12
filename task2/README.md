@@ -16,3 +16,13 @@ Apache Hadoop
 Apache spark
 
 # More details will be updated
+
+Run task2_semantic.py for main task, will generate results folder, containing all json files for each datasets
+
+Run stat.py for generating score.json,including precision and recall value
+
+Run generate_result.py for generating task2.json, and task2-manual-labels.json
+
+Colname_match_list.txt is a list of true column name along with given column name for each dataset
+
+task2_true_label.xlsx is manually labeled true type for each dataset
