@@ -20,7 +20,6 @@ predicted_label_map = dict()
 for file in output_files:
 	f1,f2 = file.split('_',maxsplit=1)
 	f2 = f2.split('.')[0]
-
 	with open('results/{}'.format(file)) as f:
 		data = json.load(f)
 		for item in data['columns'][0]['semantic_types']:
@@ -33,7 +32,6 @@ for file in output_files:
 total_columns_to_type = {item[0]:len(item[1]) for item in label_map.items()}
 # this is total columns predicted as type. (number of columns belong to a single type after prediction)
 total_columns_to_type_predicted = {item[0]:len(item[1]) for item in predicted_label_map.items() if item[0] in label_map}
-
 # need to computer correctly predicted as type
 correctly_columns_predicted = dict()
 for label in total_columns_to_type_predicted:
@@ -47,28 +45,23 @@ for label in total_columns_to_type_predicted:
 # precision = correctly predict / total predict
 # recall = correctly predict / total in reality
 output = []
+# for all labels in our manually labeling dataset.
 for item in total_columns_to_type.items():
 	label = item[0]
-	total_columns_count = item[1]
+	total_count = item[1]	# ground truth
 	# assign correctly columns predicted
 	if label not in correctly_columns_predicted:
-		correctly_label = 0
+		correctly_predict = 0
 	else:
-		correctly_label = correctly_columns_predicted[label]
+		correctly_predict = correctly_columns_predicted[label]
 
-	# assign total columns predicted as type
-	# if label not in total_columns_to_type_predicted:
-	# 	total_columns_predicted_count = 2
-	# else:
-	# 	total_columns_predicted_count = total_columns_to_type_predicted[label]
-	total_columns_predicted_count = total_columns_to_type_predicted[label]
+	total_predicted_count = total_columns_to_type_predicted[label]
 
-	precision = correctly_label / total_columns_predicted_count
-	recall = correctly_label / total_columns_count
+	precision = correctly_predict / total_predicted_count
+	recall = correctly_predict / total_count
 
 	output.append({label:[{'precision':precision},{'recall': recall}]})
 
-# print(output)
 res = {'results': output}
 with open('scores.json', 'w') as f:
 	json.dump(res, f, indent=2)

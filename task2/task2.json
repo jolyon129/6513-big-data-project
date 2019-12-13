@@ -1,7 +1,7 @@
 {
   "predicted_types": [
     {
-      "column_name": "ZIP",
+      "column_name": "ci93-uc8s_ZIP",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "column_name": "Independent Website",
+      "column_name": "u553-m549_Independent_Website",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "column_name": "PREM_TYP_DESC",
+      "column_name": "qgea-i56i_PREM_TYP_DESC",
       "semantic_types": [
         {
           "semantic_type": "location_type",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "column_name": "Provider Last Name",
+      "column_name": "7btz-mnc8_Provider_Last_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "column_name": "Owner's Street Name",
+      "column_name": "w9ak-ipjd_Owner_s_Street_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "6je4-4x7e_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "column_name": "VendorAddress",
+      "column_name": "dg92-zbpx_VendorAddress",
       "semantic_types": [
         {
           "semantic_type": "address",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "column_name": "BROOKLYN CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "5mw2-hzqx_BROOKLYN_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Make",
+      "column_name": "pvqr-7yc4_Vehicle_Make",
       "semantic_types": [
         {
           "semantic_type": "car_make",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Building Classification",
+      "column_name": "tyfh-9h2y_BROOKLYN___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "column_name": "VEHICLE TYPE CODE 4",
+      "column_name": "h9gi-nx95_VEHICLE_TYPE_CODE_4",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "column_name": "PREM_TYP_DESC",
+      "column_name": "5uac-w243_PREM_TYP_DESC",
       "semantic_types": [
         {
           "semantic_type": "location_type",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "column_name": "ACCOUNT CITY",
+      "column_name": "p2d7-vcsb_ACCOUNT_CITY",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "column_name": "Provider First Name",
+      "column_name": "7btz-mnc8_Provider_First_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "column_name": "DVC_MAKE",
+      "column_name": "pq5i-thsu_DVC_MAKE",
       "semantic_types": [
         {
           "semantic_type": "DVC_MAKE",
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Body Type",
+      "column_name": "pvqr-7yc4_Vehicle_Body_Type",
       "semantic_types": [
         {
           "semantic_type": "vehicle_type",
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "5tdj-xqd5_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "kz72-dump_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "column_name": "Owner\u2019s House Zip Code",
+      "column_name": "bty7-2jhb_Owner_s_House_Zip_Code",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -311,7 +311,7 @@
       ]
     },
     {
-      "column_name": "Street Address 1 ",
+      "column_name": "m3fi-rt3k_Street_Address_1_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "column_name": "DBA",
+      "column_name": "43nn-pn8j_DBA",
       "semantic_types": [
         {
           "semantic_type": "DBA",
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "column_name": "Property Address",
+      "column_name": "4nft-bihw_Property_Address",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -366,7 +366,7 @@
       ]
     },
     {
-      "column_name": "CrossStreetName",
+      "column_name": "ydkf-mpxb_CrossStreetName",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "column_name": "STATEN ISLAND CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "cyfw-hfqk_STATEN_ISLAND_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "column_name": "StartCity",
+      "column_name": "as69-ew8f_StartCity",
       "semantic_types": [
         {
           "semantic_type": "city",
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "column_name": "interest1",
+      "column_name": "s3k6-pzi2_interest1",
       "semantic_types": [
         {
           "semantic_type": "area_of_study",
@@ -431,7 +431,7 @@
       ]
     },
     {
-      "column_name": "CORE COURSE (MS CORE and 9-12 ONLY)",
+      "column_name": "d3ge-anaz_CORE_COURSE__MS_CORE_and_9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "CORE COURSE (MS CORE and 9-12 ONLY)",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "column_name": "NeighborhoodName",
+      "column_name": "ajxm-kzmj_NeighborhoodName",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "column_name": "Violation Location (City)",
+      "column_name": "jz4z-kudi_Violation_Location__City_",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "column_name": "website",
+      "column_name": "7crd-d9xh_website",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "column_name": "City",
+      "column_name": "erm2-nwe9_City",
       "semantic_types": [
         {
           "semantic_type": "city",
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "vrn4-2abs_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -526,7 +526,7 @@
       ]
     },
     {
-      "column_name": "Website",
+      "column_name": "8wbx-tsch_Website",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -546,7 +546,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Make",
+      "column_name": "kiv2-tbus_Vehicle_Make",
       "semantic_types": [
         {
           "semantic_type": "car_make",
@@ -566,7 +566,7 @@
       ]
     },
     {
-      "column_name": "CANDMI",
+      "column_name": "735p-zed8_CANDMI",
       "semantic_types": [
         {
           "semantic_type": "CANDMI",
@@ -581,7 +581,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "jhjm-vsp8_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -596,7 +596,7 @@
       ]
     },
     {
-      "column_name": "Website",
+      "column_name": "ci93-uc8s_Website",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -616,7 +616,7 @@
       ]
     },
     {
-      "column_name": "COMPARABLE RENTAL \u00e2\u0080\u0093 1 \u00e2\u0080\u0093 Building Classification",
+      "column_name": "dvzp-h4k9_COMPARABLE_RENTAL_____1_____Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "building_classification",
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "sybh-s59s_CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -646,7 +646,7 @@
       ]
     },
     {
-      "column_name": "Owner Last Name",
+      "column_name": "52dp-yji6_Owner_Last_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -666,7 +666,7 @@
       ]
     },
     {
-      "column_name": "phone",
+      "column_name": "kiyv-ks3f_phone",
       "semantic_types": [
         {
           "semantic_type": "phone_number",
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "column_name": "Address1",
+      "column_name": "pqg4-dm6b_Address1",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -696,7 +696,7 @@
       ]
     },
     {
-      "column_name": "CrossStreet2",
+      "column_name": "bdjm-n7q4_CrossStreet2",
       "semantic_types": [
         {
           "semantic_type": "CrossStreet2",
@@ -711,7 +711,7 @@
       ]
     },
     {
-      "column_name": "Cross Street 2",
+      "column_name": "3rfa-3xsf_Cross_Street_2",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "column_name": "interest",
+      "column_name": "ge8j-uqbf_interest",
       "semantic_types": [
         {
           "semantic_type": "area_of_study",
@@ -736,7 +736,7 @@
       ]
     },
     {
-      "column_name": "Street Name",
+      "column_name": "uzcy-9puk_Street_Name",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -756,7 +756,7 @@
       ]
     },
     {
-      "column_name": "fax",
+      "column_name": "ci93-uc8s_fax",
       "semantic_types": [
         {
           "semantic_type": "fax",
@@ -771,7 +771,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "gez6-674h_CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -791,7 +791,7 @@
       ]
     },
     {
-      "column_name": "interest4",
+      "column_name": "vw9i-7mzq_interest4",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "sqcr-6mww_School_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -821,7 +821,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "him9-7gri_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "column_name": "Location 1",
+      "column_name": "k3cd-yu9d_Location_1",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -851,7 +851,7 @@
       ]
     },
     {
-      "column_name": "AUTH_REP_FIRST_NAME",
+      "column_name": "dm9a-ab7w_AUTH_REP_FIRST_NAME",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -871,7 +871,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Body Type",
+      "column_name": "faiq-9dfq_Vehicle_Body_Type",
       "semantic_types": [
         {
           "semantic_type": "vehicle_type",
@@ -891,7 +891,7 @@
       ]
     },
     {
-      "column_name": "INTEREST",
+      "column_name": "i9pf-sj7c_INTEREST",
       "semantic_types": [
         {
           "semantic_type": "area_of_study",
@@ -901,7 +901,7 @@
       ]
     },
     {
-      "column_name": "Location1",
+      "column_name": "n5mv-nfpy_Location1",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -916,7 +916,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "6ypq-ih9a_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -936,7 +936,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "kiv2-tbus_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "column_name": "Address 1",
+      "column_name": "nfkx-wd79_Address_1",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -971,7 +971,7 @@
       ]
     },
     {
-      "column_name": "Location",
+      "column_name": "hy4q-igkk_Location",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -986,7 +986,7 @@
       ]
     },
     {
-      "column_name": "STATEN ISLAND CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "wv4q-e75v_STATEN_ISLAND_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -996,7 +996,7 @@
       ]
     },
     {
-      "column_name": "VEHICLE TYPE CODE 5",
+      "column_name": "h9gi-nx95_VEHICLE_TYPE_CODE_5",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "column_name": "CANDMI",
+      "column_name": "k3cd-yu9d_CANDMI",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1026,7 +1026,7 @@
       ]
     },
     {
-      "column_name": "interest6",
+      "column_name": "uq7m-95z8_interest6",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1041,7 +1041,7 @@
       ]
     },
     {
-      "column_name": "FromStreetName",
+      "column_name": "tqtj-sjs8_FromStreetName",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -1061,7 +1061,7 @@
       ]
     },
     {
-      "column_name": "CrossStreet2",
+      "column_name": "4twk-9yq2_CrossStreet2",
       "semantic_types": [
         {
           "semantic_type": "CrossStreet2",
@@ -1076,7 +1076,7 @@
       ]
     },
     {
-      "column_name": "Location",
+      "column_name": "w7w3-xahh_Location",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1091,7 +1091,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "weg5-33pj_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -1106,7 +1106,7 @@
       ]
     },
     {
-      "column_name": "Org Name",
+      "column_name": "mmvm-mvi3_Org_Name",
       "semantic_types": [
         {
           "semantic_type": "Org Name",
@@ -1116,7 +1116,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "uh2w-zjsn_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -1126,7 +1126,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "cgz5-877h_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "column_name": "FirstName",
+      "column_name": "6anw-twe4_FirstName",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1166,7 +1166,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "sa5w-dn2t_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -1181,7 +1181,7 @@
       ]
     },
     {
-      "column_name": "interest3",
+      "column_name": "vw9i-7mzq_interest3",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1196,7 +1196,7 @@
       ]
     },
     {
-      "column_name": "Respondent Address (City)",
+      "column_name": "jz4z-kudi_Respondent_Address__City_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "column_name": "BRONX \u00e2\u0080\u0093 CONDOMINIUMS COMPARABLE PROPERTIES \u00e2\u0080\u0093 Neighborhood",
+      "column_name": "3qfc-4tta_BRONX_____CONDOMINIUMS_COMPARABLE_PROPERTIES_____Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -1226,7 +1226,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "7jkp-5w5g_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -1241,7 +1241,7 @@
       ]
     },
     {
-      "column_name": "Middle Initial",
+      "column_name": "mdcw-n682_Middle_Initial",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1256,7 +1256,7 @@
       ]
     },
     {
-      "column_name": "Respondent Address (Zip Code)",
+      "column_name": "jz4z-kudi_Respondent_Address__Zip_Code_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1276,7 +1276,7 @@
       ]
     },
     {
-      "column_name": "Park Facility Name",
+      "column_name": "aiww-p3af_Park_Facility_Name",
       "semantic_types": [
         {
           "semantic_type": "park_playground",
@@ -1286,7 +1286,7 @@
       ]
     },
     {
-      "column_name": "School Type",
+      "column_name": "yahh-6yjc_School_Type",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -1296,7 +1296,7 @@
       ]
     },
     {
-      "column_name": "Owner's Business Name",
+      "column_name": "w9ak-ipjd_Owner_s_Business_Name",
       "semantic_types": [
         {
           "semantic_type": "business_name",
@@ -1306,7 +1306,7 @@
       ]
     },
     {
-      "column_name": "PRINCIPAL_PHONE_NUMBER",
+      "column_name": "i4ni-6qin_PRINCIPAL_PHONE_NUMBER",
       "semantic_types": [
         {
           "semantic_type": "phone_number",
@@ -1326,7 +1326,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "cvh6-nmyi_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -1341,7 +1341,7 @@
       ]
     },
     {
-      "column_name": "BROOKLYN CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "rmv8-86p4_BROOKLYN_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1356,7 +1356,7 @@
       ]
     },
     {
-      "column_name": "EMPCITY",
+      "column_name": "s9d3-x4fz_EMPCITY",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1376,7 +1376,7 @@
       ]
     },
     {
-      "column_name": "RESPONDENT_ZIP",
+      "column_name": "6bgk-3dad_RESPONDENT_ZIP",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "column_name": "parkname",
+      "column_name": "6rrm-vxj9_parkname",
       "semantic_types": [
         {
           "semantic_type": "park_playground",
@@ -1411,7 +1411,7 @@
       ]
     },
     {
-      "column_name": "Owner Street Address",
+      "column_name": "rbx6-tga4_Owner_Street_Address",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -1431,7 +1431,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "mjux-q9d4_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -1441,7 +1441,7 @@
       ]
     },
     {
-      "column_name": "DBA",
+      "column_name": "2bmr-jdsv_DBA",
       "semantic_types": [
         {
           "semantic_type": "DBA",
@@ -1456,7 +1456,7 @@
       ]
     },
     {
-      "column_name": "interest1",
+      "column_name": "uq7m-95z8_interest1",
       "semantic_types": [
         {
           "semantic_type": "area_of_study",
@@ -1466,7 +1466,7 @@
       ]
     },
     {
-      "column_name": "Park Facility Name",
+      "column_name": "erm2-nwe9_Park_Facility_Name",
       "semantic_types": [
         {
           "semantic_type": "park_playground",
@@ -1481,7 +1481,7 @@
       ]
     },
     {
-      "column_name": "CITY",
+      "column_name": "fbaw-uq4e_CITY",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1501,7 +1501,7 @@
       ]
     },
     {
-      "column_name": "VEHICLE TYPE CODE 2",
+      "column_name": "h9gi-nx95_VEHICLE_TYPE_CODE_2",
       "semantic_types": [
         {
           "semantic_type": "vehicle_type",
@@ -1521,7 +1521,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "5nz7-hh6t_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1541,7 +1541,7 @@
       ]
     },
     {
-      "column_name": "street",
+      "column_name": "ji82-xba5_street",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1556,7 +1556,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL",
+      "column_name": "xne4-4v8f_SCHOOL",
       "semantic_types": [
         {
           "semantic_type": "SCHOOL",
@@ -1566,7 +1566,7 @@
       ]
     },
     {
-      "column_name": "CANDMI",
+      "column_name": "e9xc-u3ds_CANDMI",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1581,7 +1581,7 @@
       ]
     },
     {
-      "column_name": "BusinessName",
+      "column_name": "tg3t-nh4h_BusinessName",
       "semantic_types": [
         {
           "semantic_type": "business_name",
@@ -1591,7 +1591,7 @@
       ]
     },
     {
-      "column_name": "Agency ID",
+      "column_name": "72ss-25qh_Agency_ID",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -1606,7 +1606,7 @@
       ]
     },
     {
-      "column_name": "BUSINESS_NAME2",
+      "column_name": "qcdj-rwhu_BUSINESS_NAME2",
       "semantic_types": [
         {
           "semantic_type": "business_name",
@@ -1621,7 +1621,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "imfa-v5pv_School_Name",
       "semantic_types": [
         {
           "semantic_type": "school_name",
@@ -1636,7 +1636,7 @@
       ]
     },
     {
-      "column_name": "DBA",
+      "column_name": "9b9u-8989_DBA",
       "semantic_types": [
         {
           "semantic_type": "DBA",
@@ -1646,7 +1646,7 @@
       ]
     },
     {
-      "column_name": "BORO",
+      "column_name": "sv2w-rv3k_BORO",
       "semantic_types": [
         {
           "semantic_type": "BORO",
@@ -1661,7 +1661,7 @@
       ]
     },
     {
-      "column_name": "Address 1",
+      "column_name": "tukx-dsca_Address_1",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -1676,7 +1676,7 @@
       ]
     },
     {
-      "column_name": "PRINCIPAL_PHONE_NUMBER",
+      "column_name": "p6h4-mpyy_PRINCIPAL_PHONE_NUMBER",
       "semantic_types": [
         {
           "semantic_type": "phone_number",
@@ -1696,7 +1696,7 @@
       ]
     },
     {
-      "column_name": "MANHATTAN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Building Classification",
+      "column_name": "jxyc-rxiv_MANHATTAN___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1711,7 +1711,7 @@
       ]
     },
     {
-      "column_name": "org_website",
+      "column_name": "qpm9-j523_org_website",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -1726,7 +1726,7 @@
       ]
     },
     {
-      "column_name": "VEHICLE TYPE CODE 3",
+      "column_name": "h9gi-nx95_VEHICLE_TYPE_CODE_3",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1741,7 +1741,7 @@
       ]
     },
     {
-      "column_name": "Landmark",
+      "column_name": "erm2-nwe9_Landmark",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1756,7 +1756,7 @@
       ]
     },
     {
-      "column_name": "Last Name (only 2014-15)",
+      "column_name": "8k4x-9mp5_Last_Name__only_2014_15_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1776,7 +1776,7 @@
       ]
     },
     {
-      "column_name": "Owner\u2019s House City",
+      "column_name": "ipu4-2q9a_Owner_s_House_City",
       "semantic_types": [
         {
           "semantic_type": "city",
@@ -1796,7 +1796,7 @@
       ]
     },
     {
-      "column_name": "PERSON LAST NAME",
+      "column_name": "2sps-j9st_PERSON_LAST_NAME",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -1811,7 +1811,7 @@
       ]
     },
     {
-      "column_name": "CITY",
+      "column_name": "easq-ubfe_CITY",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1831,7 +1831,7 @@
       ]
     },
     {
-      "column_name": "BRONX CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "bawj-6bgn_BRONX_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -1841,7 +1841,7 @@
       ]
     },
     {
-      "column_name": "StreetName",
+      "column_name": "uwyv-629c_StreetName",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -1856,7 +1856,7 @@
       ]
     },
     {
-      "column_name": "DBA",
+      "column_name": "2v9c-2k7f_DBA",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1871,7 +1871,7 @@
       ]
     },
     {
-      "column_name": "AUTH_REP_LAST_NAME",
+      "column_name": "dm9a-ab7w_AUTH_REP_LAST_NAME",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -1891,7 +1891,7 @@
       ]
     },
     {
-      "column_name": "DVT_MAKE",
+      "column_name": "vr8p-8shw_DVT_MAKE",
       "semantic_types": [
         {
           "semantic_type": "DVT_MAKE",
@@ -1901,7 +1901,7 @@
       ]
     },
     {
-      "column_name": "QUEENS CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "m59i-mqex_QUEENS_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1916,7 +1916,7 @@
       ]
     },
     {
-      "column_name": "Incident Zip",
+      "column_name": "3rfa-3xsf_Incident_Zip",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -1936,7 +1936,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "ub9e-s7ai_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -1956,7 +1956,7 @@
       ]
     },
     {
-      "column_name": "address",
+      "column_name": "ji82-xba5_address",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -1976,7 +1976,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "ffnc-f3aa_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -1986,7 +1986,7 @@
       ]
     },
     {
-      "column_name": "DVV_MAKE",
+      "column_name": "bjuu-44hx_DVV_MAKE",
       "semantic_types": [
         {
           "semantic_type": "DVV_MAKE",
@@ -1996,7 +1996,7 @@
       ]
     },
     {
-      "column_name": "BRONX CONDOMINIUM PROPERTY Building Classification",
+      "column_name": "en2c-j6tw_BRONX_CONDOMINIUM_PROPERTY_Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2011,7 +2011,7 @@
       ]
     },
     {
-      "column_name": "Applicant's First Name",
+      "column_name": "ic3t-wcy2_Applicant_s_First_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -2031,7 +2031,7 @@
       ]
     },
     {
-      "column_name": "MI",
+      "column_name": "a9md-ynri_MI",
       "semantic_types": [
         {
           "semantic_type": "MI",
@@ -2046,7 +2046,7 @@
       ]
     },
     {
-      "column_name": "Park Facility Name",
+      "column_name": "uzcy-9puk_Park_Facility_Name",
       "semantic_types": [
         {
           "semantic_type": "park_playground",
@@ -2056,7 +2056,7 @@
       ]
     },
     {
-      "column_name": "LastName",
+      "column_name": "6anw-twe4_LastName",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2076,7 +2076,7 @@
       ]
     },
     {
-      "column_name": "EMPCITY",
+      "column_name": "64gx-bycn_EMPCITY",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2096,7 +2096,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "hjvj-jfc9_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -2111,7 +2111,7 @@
       ]
     },
     {
-      "column_name": "STREET_NAME",
+      "column_name": "dm9a-ab7w_STREET_NAME",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -2126,7 +2126,7 @@
       ]
     },
     {
-      "column_name": "Location 1",
+      "column_name": "fbaw-uq4e_Location_1",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2141,7 +2141,7 @@
       ]
     },
     {
-      "column_name": "Applicant Last Name",
+      "column_name": "w9ak-ipjd_Applicant_Last_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -2156,7 +2156,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "x3kb-2vbv_School_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2171,7 +2171,7 @@
       ]
     },
     {
-      "column_name": "StreetName",
+      "column_name": "kj4p-ruqc_StreetName",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2186,7 +2186,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "pvqr-7yc4_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -2206,7 +2206,7 @@
       ]
     },
     {
-      "column_name": "Incident Zip",
+      "column_name": "aiww-p3af_Incident_Zip",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2226,7 +2226,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "5e7x-8jy6_School_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2241,7 +2241,7 @@
       ]
     },
     {
-      "column_name": "ADDRESS",
+      "column_name": "cspg-yi7g_ADDRESS",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2256,7 +2256,7 @@
       ]
     },
     {
-      "column_name": "ZipCode(s)",
+      "column_name": "tg4x-b46p_ZipCode_s_",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -2271,7 +2271,7 @@
       ]
     },
     {
-      "column_name": "QUEENS CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "crbs-vur7_QUEENS_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -2281,7 +2281,7 @@
       ]
     },
     {
-      "column_name": "BOROUGH / COMMUNITY",
+      "column_name": "mrxb-9w9v_BOROUGH___COMMUNITY",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -2301,7 +2301,7 @@
       ]
     },
     {
-      "column_name": "Phone Number",
+      "column_name": "urzf-q2g5_Phone_Number",
       "semantic_types": [
         {
           "semantic_type": "phone_number",
@@ -2316,7 +2316,7 @@
       ]
     },
     {
-      "column_name": "HOUSE_NUMBER",
+      "column_name": "p937-wjvj_HOUSE_NUMBER",
       "semantic_types": [
         {
           "semantic_type": "house_number",
@@ -2336,7 +2336,7 @@
       ]
     },
     {
-      "column_name": "Vendor_DBA",
+      "column_name": "ci93-uc8s_Vendor_DBA",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2351,7 +2351,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "ytjm-yias_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2371,7 +2371,7 @@
       ]
     },
     {
-      "column_name": "interest5",
+      "column_name": "s3k6-pzi2_interest5",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "column_name": "Address City",
+      "column_name": "w7w3-xahh_Address_City",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2406,7 +2406,7 @@
       ]
     },
     {
-      "column_name": "interest1",
+      "column_name": "vw9i-7mzq_interest1",
       "semantic_types": [
         {
           "semantic_type": "area_of_study",
@@ -2416,7 +2416,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "wks3-66bn_School_Name",
       "semantic_types": [
         {
           "semantic_type": "school_name",
@@ -2431,7 +2431,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "fzv4-jan3_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -2446,7 +2446,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "upwt-zvh3_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -2456,7 +2456,7 @@
       ]
     },
     {
-      "column_name": "Cross Street 1",
+      "column_name": "aiww-p3af_Cross_Street_1",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2471,7 +2471,7 @@
       ]
     },
     {
-      "column_name": "PERSON FIRST NAME",
+      "column_name": "2sps-j9st_PERSON_FIRST_NAME",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -2491,7 +2491,7 @@
       ]
     },
     {
-      "column_name": "STATEN ISLAND CONDOMINIUM PROPERTY Neighborhood",
+      "column_name": "a5qt-5jpu_STATEN_ISLAND_CONDOMINIUM_PROPERTY_Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -2501,7 +2501,7 @@
       ]
     },
     {
-      "column_name": "BORO",
+      "column_name": "pdpg-nn8i_BORO",
       "semantic_types": [
         {
           "semantic_type": "BORO",
@@ -2511,7 +2511,7 @@
       ]
     },
     {
-      "column_name": "VEHICLE MAKE",
+      "column_name": "n84m-kx4j_VEHICLE_MAKE",
       "semantic_types": [
         {
           "semantic_type": "car_make",
@@ -2526,7 +2526,7 @@
       ]
     },
     {
-      "column_name": "Last Name",
+      "column_name": "mdcw-n682_Last_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -2541,7 +2541,7 @@
       ]
     },
     {
-      "column_name": "TOP VEHICLE MODELS - 5",
+      "column_name": "ph7v-u5f3_TOP_VEHICLE_MODELS___5",
       "semantic_types": [
         {
           "semantic_type": "TOP VEHICLE MODELS - 5",
@@ -2556,7 +2556,7 @@
       ]
     },
     {
-      "column_name": "Incident_Address_Street_Name",
+      "column_name": "9jgj-bmct_Incident_Address_Street_Name",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -2576,7 +2576,7 @@
       ]
     },
     {
-      "column_name": "Intersection Street 2",
+      "column_name": "3rfa-3xsf_Intersection_Street_2",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2591,7 +2591,7 @@
       ]
     },
     {
-      "column_name": "Color",
+      "column_name": "mqdy-gu73_Color",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2611,7 +2611,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "jzt2-2f7h_School_Name",
       "semantic_types": [
         {
           "semantic_type": "school_name",
@@ -2626,7 +2626,7 @@
       ]
     },
     {
-      "column_name": "Street Name",
+      "column_name": "3rfa-3xsf_Street_Name",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2646,7 +2646,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "qe6k-pu9t_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -2661,7 +2661,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "vuae-w6cg_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -2676,7 +2676,7 @@
       ]
     },
     {
-      "column_name": "neighborhood",
+      "column_name": "vw9i-7mzq_neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -2686,7 +2686,7 @@
       ]
     },
     {
-      "column_name": "CANDMI",
+      "column_name": "kwmq-dbub_CANDMI",
       "semantic_types": [
         {
           "semantic_type": "CANDMI",
@@ -2701,7 +2701,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "72ss-25qh_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -2721,7 +2721,7 @@
       ]
     },
     {
-      "column_name": "Principal_phone_number",
+      "column_name": "wg9x-4ke6_Principal_phone_number",
       "semantic_types": [
         {
           "semantic_type": "phone_number",
@@ -2736,7 +2736,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Body Type",
+      "column_name": "kiv2-tbus_Vehicle_Body_Type",
       "semantic_types": [
         {
           "semantic_type": "vehicle_type",
@@ -2756,7 +2756,7 @@
       ]
     },
     {
-      "column_name": "Location",
+      "column_name": "4pt5-3vv4_Location",
       "semantic_types": [
         {
           "semantic_type": "lat_lon_cord",
@@ -2766,7 +2766,7 @@
       ]
     },
     {
-      "column_name": "Telephone Number",
+      "column_name": "eccv-9dzr_Telephone_Number",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2776,7 +2776,7 @@
       ]
     },
     {
-      "column_name": "CORE COURSE(9-12 ONLY)",
+      "column_name": "i8ys-e4pm_CORE_COURSE_9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "CORE COURSE(9-12 ONLY)",
@@ -2786,7 +2786,7 @@
       ]
     },
     {
-      "column_name": "Owner First Name",
+      "column_name": "52dp-yji6_Owner_First_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -2806,7 +2806,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "pgtq-ht5f_CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2826,7 +2826,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "2bnn-yakx_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -2846,7 +2846,7 @@
       ]
     },
     {
-      "column_name": "Name (Last, First)",
+      "column_name": "nhms-9u6g_Name__Last__First_",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -2861,7 +2861,7 @@
       ]
     },
     {
-      "column_name": "Filing Representative First Name",
+      "column_name": "w9ak-ipjd_Filing_Representative_First_Name",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2881,7 +2881,7 @@
       ]
     },
     {
-      "column_name": "MI",
+      "column_name": "vx8i-nprf_MI",
       "semantic_types": [
         {
           "semantic_type": "MI",
@@ -2896,7 +2896,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "3aka-ggej_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -2916,7 +2916,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "hy4q-igkk_School_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -2931,7 +2931,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "vhah-kvpj_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -2946,7 +2946,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "xne4-4v8f_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -2956,7 +2956,7 @@
       ]
     },
     {
-      "column_name": "TOSTREETNAME",
+      "column_name": "i6b5-j7bu_TOSTREETNAME",
       "semantic_types": [
         {
           "semantic_type": "street_name",
@@ -2976,7 +2976,7 @@
       ]
     },
     {
-      "column_name": "WEBSITE",
+      "column_name": "5ziv-wcy4_WEBSITE",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -2991,7 +2991,7 @@
       ]
     },
     {
-      "column_name": "VEHICLE TYPE CODE 1",
+      "column_name": "h9gi-nx95_VEHICLE_TYPE_CODE_1",
       "semantic_types": [
         {
           "semantic_type": "vehicle_type",
@@ -3011,7 +3011,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Make",
+      "column_name": "2bnn-yakx_Vehicle_Make",
       "semantic_types": [
         {
           "semantic_type": "car_make",
@@ -3031,7 +3031,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Make",
+      "column_name": "jt7v-77mi_Vehicle_Make",
       "semantic_types": [
         {
           "semantic_type": "car_make",
@@ -3051,7 +3051,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "i5ef-jxv3_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -3066,7 +3066,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "jt7v-77mi_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -3086,7 +3086,7 @@
       ]
     },
     {
-      "column_name": "Agency Name",
+      "column_name": "sqmu-2ixd_Agency_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3101,7 +3101,7 @@
       ]
     },
     {
-      "column_name": "Lat_Lon",
+      "column_name": "qgea-i56i_Lat_Lon",
       "semantic_types": [
         {
           "semantic_type": "lat_lon_cord",
@@ -3116,7 +3116,7 @@
       ]
     },
     {
-      "column_name": "First Name",
+      "column_name": "t8hj-ruu2_First_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -3136,7 +3136,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "4n2j-ut8i_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -3146,7 +3146,7 @@
       ]
     },
     {
-      "column_name": "CITY",
+      "column_name": "vg63-xw6u_CITY",
       "semantic_types": [
         {
           "semantic_type": "city",
@@ -3166,7 +3166,7 @@
       ]
     },
     {
-      "column_name": "Address",
+      "column_name": "4d7f-74pe_Address",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3186,7 +3186,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT (MS CORE and 9-12 ONLY)",
+      "column_name": "7yds-6i8e_CORE_SUBJECT__MS_CORE_and_9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3201,7 +3201,7 @@
       ]
     },
     {
-      "column_name": "interest4",
+      "column_name": "s3k6-pzi2_interest4",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3216,7 +3216,7 @@
       ]
     },
     {
-      "column_name": "Website",
+      "column_name": "jvce-szsb_Website",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -3231,7 +3231,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "jtus-srrj_School_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3246,7 +3246,7 @@
       ]
     },
     {
-      "column_name": "BRONX CONDOMINIUM PROPERTY Building Classification",
+      "column_name": "n2s5-fumm_BRONX_CONDOMINIUM_PROPERTY_Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "building_classification",
@@ -3256,7 +3256,7 @@
       ]
     },
     {
-      "column_name": "School Phone Number",
+      "column_name": "uzcy-9puk_School_Phone_Number",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3266,7 +3266,7 @@
       ]
     },
     {
-      "column_name": "School Name",
+      "column_name": "3rfa-3xsf_School_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3281,7 +3281,7 @@
       ]
     },
     {
-      "column_name": "Site Safety Mgr's Last Name",
+      "column_name": "ipu4-2q9a_Site_Safety_Mgr_s_Last_Name",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3301,7 +3301,7 @@
       ]
     },
     {
-      "column_name": "Location",
+      "column_name": "bdjm-n7q4_Location",
       "semantic_types": [
         {
           "semantic_type": "lat_lon_cord",
@@ -3311,7 +3311,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL NAME",
+      "column_name": "4y63-yw9e_SCHOOL_NAME",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "dj4e-3xrn_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -3346,7 +3346,7 @@
       ]
     },
     {
-      "column_name": "Location 1",
+      "column_name": "29bw-z7pj_Location_1",
       "semantic_types": [
         {
           "semantic_type": "lat_lon_cord",
@@ -3361,7 +3361,7 @@
       ]
     },
     {
-      "column_name": "Cross Street 1",
+      "column_name": "sqcr-6mww_Cross_Street_1",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3376,7 +3376,7 @@
       ]
     },
     {
-      "column_name": "COMPARABLE RENTAL \u2013 1 \u2013 Building Classification",
+      "column_name": "m56g-jpua_COMPARABLE_RENTAL___1___Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3396,7 +3396,7 @@
       ]
     },
     {
-      "column_name": "CORE COURSE (MS CORE and 9-12 ONLY)",
+      "column_name": "6wcu-cfa3_CORE_COURSE__MS_CORE_and_9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "CORE COURSE (MS CORE and 9-12 ONLY)",
@@ -3406,7 +3406,7 @@
       ]
     },
     {
-      "column_name": "COMPARABLE RENTAL 1  Building Classification",
+      "column_name": "w6yt-hctp_COMPARABLE_RENTAL_1__Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "building_classification",
@@ -3416,7 +3416,7 @@
       ]
     },
     {
-      "column_name": "Address ZIP",
+      "column_name": "w7w3-xahh_Address_ZIP",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -3436,7 +3436,7 @@
       ]
     },
     {
-      "column_name": "Website",
+      "column_name": "rb2h-bgai_Website",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -3451,7 +3451,7 @@
       ]
     },
     {
-      "column_name": "QUEENS \u00e2\u0080\u0093 CONDOMINIUMS COMPARABLE PROPERTIES \u00e2\u0080\u0093 Neighborhood",
+      "column_name": "jcih-dj9q_QUEENS_____CONDOMINIUMS_COMPARABLE_PROPERTIES_____Neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -3461,7 +3461,7 @@
       ]
     },
     {
-      "column_name": "TruckMake",
+      "column_name": "as69-ew8f_TruckMake",
       "semantic_types": [
         {
           "semantic_type": "TruckMake",
@@ -3471,7 +3471,7 @@
       ]
     },
     {
-      "column_name": "org_neighborhood",
+      "column_name": "qpm9-j523_org_neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -3486,7 +3486,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL NAME",
+      "column_name": "gk83-aa6y_SCHOOL_NAME",
       "semantic_types": [
         {
           "semantic_type": "school_name",
@@ -3506,7 +3506,7 @@
       ]
     },
     {
-      "column_name": "Site Safety Mgr's First Name",
+      "column_name": "ipu4-2q9a_Site_Safety_Mgr_s_First_Name",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3526,7 +3526,7 @@
       ]
     },
     {
-      "column_name": "Park/Site Name",
+      "column_name": "sxx4-xhzg_Park_Site_Name",
       "semantic_types": [
         {
           "semantic_type": "park_playground",
@@ -3541,7 +3541,7 @@
       ]
     },
     {
-      "column_name": "APPLICANT_FIRST_NAME",
+      "column_name": "dm9a-ab7w_APPLICANT_FIRST_NAME",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -3556,7 +3556,7 @@
       ]
     },
     {
-      "column_name": "Neighborhood",
+      "column_name": "myei-c3fa_Neighborhood_1",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -3566,7 +3566,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Body Type",
+      "column_name": "2bnn-yakx_Vehicle_Body_Type",
       "semantic_types": [
         {
           "semantic_type": "vehicle_type",
@@ -3586,7 +3586,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "c284-tqph_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -3606,7 +3606,7 @@
       ]
     },
     {
-      "column_name": "Upcoming Project Name",
+      "column_name": "tsak-vtv3_Upcoming_Project_Name",
       "semantic_types": [
         {
           "semantic_type": "Upcoming Project Name",
@@ -3616,7 +3616,7 @@
       ]
     },
     {
-      "column_name": "Cross Street 2",
+      "column_name": "sxmw-f24h_Cross_Street_2",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3631,7 +3631,7 @@
       ]
     },
     {
-      "column_name": "Location",
+      "column_name": "uzcy-9puk_Location",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3646,7 +3646,7 @@
       ]
     },
     {
-      "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Building Classification",
+      "column_name": "irhv-jqz7_BROOKLYN___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3666,7 +3666,7 @@
       ]
     },
     {
-      "column_name": "Street Address 1",
+      "column_name": "q2ni-ztsb_Street_Address_1",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3686,7 +3686,7 @@
       ]
     },
     {
-      "column_name": "neighborhood",
+      "column_name": "uqxv-h2se_neighborhood",
       "semantic_types": [
         {
           "semantic_type": "neighborhood",
@@ -3701,7 +3701,7 @@
       ]
     },
     {
-      "column_name": "Agency Name",
+      "column_name": "e4p3-6ecr_Agency_Name",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3716,7 +3716,7 @@
       ]
     },
     {
-      "column_name": "Site Safety Mgr's Last Name",
+      "column_name": "bty7-2jhb_Site_Safety_Mgr_s_Last_Name",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3736,7 +3736,7 @@
       ]
     },
     {
-      "column_name": "BOROUGH",
+      "column_name": "6ypq-ih9a_BOROUGH",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3751,7 +3751,7 @@
       ]
     },
     {
-      "column_name": "Owner's  Phone #",
+      "column_name": "nyis-y4yr_Owner_s__Phone__",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3766,7 +3766,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "f7qh-bcr5_CORE_SUBJECT___MS_CORE_and__9_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3786,7 +3786,7 @@
       ]
     },
     {
-      "column_name": "MI",
+      "column_name": "qu8g-sxqf_MI",
       "semantic_types": [
         {
           "semantic_type": "MI",
@@ -3801,7 +3801,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "ii2w-6fne_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -3811,7 +3811,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "a5td-mswe_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -3831,7 +3831,7 @@
       ]
     },
     {
-      "column_name": "BORO",
+      "column_name": "qusa-igsv_BORO",
       "semantic_types": [
         {
           "semantic_type": "BORO",
@@ -3841,7 +3841,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "cqc8-am9x_Borough",
       "semantic_types": [
         {
           "semantic_type": "borough",
@@ -3851,7 +3851,7 @@
       ]
     },
     {
-      "column_name": "School Phone Number",
+      "column_name": "aiww-p3af_School_Phone_Number",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3861,7 +3861,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Color",
+      "column_name": "faiq-9dfq_Vehicle_Color",
       "semantic_types": [
         {
           "semantic_type": "color",
@@ -3876,7 +3876,7 @@
       ]
     },
     {
-      "column_name": "Business Phone Number",
+      "column_name": "t8hj-ruu2_Business_Phone_Number",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3891,7 +3891,7 @@
       ]
     },
     {
-      "column_name": "First Name",
+      "column_name": "mdcw-n682_First_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -3906,7 +3906,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "jzdn-258f_Agency",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -3921,7 +3921,7 @@
       ]
     },
     {
-      "column_name": "Business Website or Other URL",
+      "column_name": "5694-9szk_Business_Website_or_Other_URL",
       "semantic_types": [
         {
           "semantic_type": "website",
@@ -3941,7 +3941,7 @@
       ]
     },
     {
-      "column_name": "Agency",
+      "column_name": "us4j-b5zt_Agency",
       "semantic_types": [
         {
           "semantic_type": "city_agency",
@@ -3956,7 +3956,7 @@
       ]
     },
     {
-      "column_name": "Vehicle Make",
+      "column_name": "c284-tqph_Vehicle_Make",
       "semantic_types": [
         {
           "semantic_type": "car_make",
@@ -3976,7 +3976,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT ",
+      "column_name": "ajgi-hpq9_CORE_SUBJECT___MS_CORE_and__09_12_ONLY_",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -3996,7 +3996,7 @@
       ]
     },
     {
-      "column_name": "Borough",
+      "column_name": "9z9b-6hvk_Borough",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -4016,7 +4016,7 @@
       ]
     },
     {
-      "column_name": "First Name",
+      "column_name": "qu8g-sxqf_First_Name",
       "semantic_types": [
         {
           "semantic_type": "person_name",
@@ -4036,7 +4036,7 @@
       ]
     },
     {
-      "column_name": "Violation Location (Zip Code)",
+      "column_name": "jz4z-kudi_Violation_Location__Zip_Code_",
       "semantic_types": [
         {
           "semantic_type": "Other",
@@ -4051,7 +4051,7 @@
       ]
     },
     {
-      "column_name": "owner_zip",
+      "column_name": "dpm2-m9mq_owner_zip",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -4071,7 +4071,7 @@
       ]
     },
     {
-      "column_name": "CallerZipCode",
+      "column_name": "mu46-p9is_CallerZipCode",
       "semantic_types": [
         {
           "semantic_type": "zip_code",
@@ -4091,7 +4091,7 @@
       ]
     },
     {
-      "column_name": "SCHOOL LEVEL*",
+      "column_name": "yayv-apxh_SCHOOL_LEVEL_",
       "semantic_types": [
         {
           "semantic_type": "school_level",
@@ -4106,7 +4106,7 @@
       ]
     },
     {
-      "column_name": "Park Facility Name",
+      "column_name": "sxmw-f24h_Park_Facility_Name",
       "semantic_types": [
         {
           "semantic_type": "park_playground",
@@ -4116,7 +4116,7 @@
       ]
     },
     {
-      "column_name": "QUEENS CONDOMINIUM PROPERTY Building Classification",
+      "column_name": "s3zn-tf7c_QUEENS_CONDOMINIUM_PROPERTY_Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "building_classification",
@@ -4126,7 +4126,7 @@
       ]
     },
     {
-      "column_name": "MANHATTAN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Building Classification",
+      "column_name": "m56g-jpua_MANHATTAN___COOPERATIVES_COMPARABLE_PROPERTIES___Building_Classification",
       "semantic_types": [
         {
           "semantic_type": "NULL",
@@ -4146,7 +4146,7 @@
       ]
     },
     {
-      "column_name": "CORE SUBJECT",
+      "column_name": "8i43-kna8_CORE_SUBJECT",
       "semantic_types": [
         {
           "semantic_type": "Other",
