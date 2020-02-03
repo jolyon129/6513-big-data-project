@@ -1,7 +1,3 @@
-# big-data-6513
-Big Data Project 
+# CS6513 Big Data
 
-Author: Small Data Group
-
-
-Please read the README in each task.
+This repo stores the assignment and project of CS6513
